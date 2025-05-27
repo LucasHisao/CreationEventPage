@@ -7,6 +7,7 @@ import Communities from '@/pages/Communities'
 import Navbar from '@/shared/components/Navbar'
 import Footer from '@/shared/components/Footer'
 import CommunityRegister from './pages/CommunityRegister'
+import CreateEvent from './pages/CreateEvent'
 
 export default function App() {
   return (
@@ -33,6 +34,10 @@ export default function App() {
         <Route
           path='/cadastro-comunidade'
           element={<CommunityRegister />}
+        />
+        <Route
+          path='/criacao-de-eventos'
+          element={<CreateEvent />}
         />
       </Routes>
 
